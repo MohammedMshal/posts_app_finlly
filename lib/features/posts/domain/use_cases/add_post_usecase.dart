@@ -16,7 +16,7 @@ class AddPostUseCase extends BaseUseCases<Unit,AddPostParameters>{
   }
 }
 class AddPostParameters extends Equatable {
-  final List<Posts> posts;
+  final Posts posts;
 
   const AddPostParameters({required this.posts});
 

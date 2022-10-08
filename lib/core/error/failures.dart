@@ -10,8 +10,8 @@ abstract class Failures extends Equatable {
 }
 
 
-class ServerException extends Failures{
-  const ServerException({required super.message});
+class ServerFailure extends Failures{
+  const ServerFailure({required super.message});
 }
 
 
